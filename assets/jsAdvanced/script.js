@@ -2,6 +2,8 @@ const ul = document.getElementById("items");
 const questions = [];
 const scoreText = document.getElementById("score");
 let score = 0;
+let answers = 0;
+const highscore = [];
 
 async function getItems() {
   const url = new URL(
@@ -40,10 +42,8 @@ function showQuestions() {
     cardHeader.classList.add("card-header");
     cardBody.classList.add("card-body");
     cardFooter.classList.add("card-footer");
-    trueChoice.classList.add("btn");
-    trueChoice.classList.add("btn-primary");
-    falseChoice.classList.add("btn");
-    falseChoice.classList.add("btn-primary");
+    trueChoice.classList.add("btn", "btn-primary");
+    falseChoice.classList.add("btn", "btn-primary");
 
     cardHeader.innerText = `${questions.indexOf(question) + 1}`;
     cardBody.innerText = question.statement;
@@ -61,6 +61,8 @@ function showQuestions() {
       }
       trueChoice.disabled = true;
       falseChoice.disabled = true;
+      answers++;
+      checkFinalResult();
     };
 
     falseChoice.onclick = () => {
@@ -73,14 +75,30 @@ function showQuestions() {
       }
       trueChoice.disabled = true;
       falseChoice.disabled = true;
+      answers++;
+      checkFinalResult();
     };
 
-    cardFooter.appendChild(trueChoice);
-    cardFooter.appendChild(falseChoice);
-    card.appendChild(cardHeader);
-    card.appendChild(cardBody);
-    card.appendChild(cardFooter);
-    ul.appendChild(card);
+    cardFooter.append(trueChoice, falseChoice);
+    card.append(cardHeader, cardBody, cardFooter);
+    ul.append(card);
+  }
+}
+
+function getHighScore() {
+  const highScoreList = document.querySelector("#high-score");
+  highscore.sort((s, p) => s.score - p.score);
+  for (const score of highscore) {
+    const li = document.createElement("li");
+    li.classList.add(["list-group-item", "text-primary"]);
+    li.innerText = score.name;
+    highScoreList.append(li);
+  }
+}
+
+function checkFinalResult() {
+  if (answers == questions.length) {
+    console.log("All answered!");
   }
 }
 
@@ -89,5 +107,13 @@ class Question {
     this.statement = statement;
     this.answers = answers;
     this.correctAnswer = correctAnswer;
+    this.answered = false;
+  }
+}
+class Score {
+  constructor(name, score) {
+    this.name = name;
+    this.score = score;
+    this.time = Date.now();
   }
 }
