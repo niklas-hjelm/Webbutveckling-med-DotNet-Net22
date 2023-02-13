@@ -69,7 +69,7 @@ En klientapplikation skall nyttja REST Api:et och uppfylla designkraven.
 ### Väl godkänt(VG)
 För väl godkänt skall alla krav på G nivån vara uppfyllda. Förutom detta skall REST Api:et även implementera Unit of Work mönstret.
 
-Klientapplikationen skall dessutom kunna hantera deltagare och presentation av vilka kurser som deltagaren har valt att anmäla sig till eller köpt.
+Klientapplikationen skall dessutom kunna hantera kunder och presentation av vilka produkter som kunden har köpt(ordrar).
 
 Man ska dessutom nyttja rollbaseerad autentisering med JWT. Antingen egenimplementerat, OAuth eller med Identity Server.
 
