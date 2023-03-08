@@ -21,7 +21,7 @@ De har följande krav på lösningen:
 * Kunder ska kunna uppdatera sina uppgifter
 * Det ska gå att lista alla Kunder
 * Det ska gå söka efter kunder på e-post adress
-* När en kund anmäler sig/köper placerar en order måste vi kunna spåra vilken/vilka produkter som kunden har köpt
+* När en kund köper något/placerar en order måste vi kunna spåra vilken/vilka produkter som kunden har köpt
 ## Detaljkrav
 ### För en produkt skall följande uppgifter lagras i databasen
 
@@ -32,7 +32,7 @@ De har följande krav på lösningen:
 * Produktkategori (Mejeri, elektronik, husgeråd eller liknande)
 * Status (om den finns i eller har utgått ur sortimentet)
 
-### För en deltagare skall följande information lagras
+### För en kunder skall följande information lagras
 
 * Förnamn
 * Efternamn
@@ -69,8 +69,8 @@ En klientapplikation skall nyttja REST Api:et och uppfylla designkraven.
 ### Väl godkänt(VG)
 För väl godkänt skall alla krav på G nivån vara uppfyllda. Förutom detta skall REST Api:et även implementera Unit of Work mönstret.
 
-Klientapplikationen skall dessutom kunna hantera deltagare och presentation av vilka kurser som deltagaren har valt att anmäla sig till eller köpt.
+Klientapplikationen skall dessutom kunna hantera kunder och presentation av vilka produkter som kunden har köpt(ordrar).
 
-Man ska dessutom nyttja rollbaseerad autentisering med JWT. Antingen egenimplementerat, OAuth eller med Identity Server.
+Man ska dessutom nyttja rollbaserad autentisering med JWT. Antingen egenimplementerat, OAuth eller med Identity Server.
 
 Om en Admin är inloggad ska man få tillgång till en admin-sida där man kan se kunder och ordrar samt ändra i sortimentet.
