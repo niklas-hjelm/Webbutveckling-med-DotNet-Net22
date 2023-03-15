@@ -36,12 +36,12 @@ Via följande länk kan ni skapa era github repositories från en template jag s
         gitCommands.json (tomt)
 
     development:
-        .gitignore (tomt eller niklasCommands.txt plus partners motsvarighet)
+        .gitignore (niklasCommands.txt plus partners motsvarighet)
         allCommands.txt (alla 60 commands)
         lathund.json (tomt)
 
     niklas-dev
-        .gitignore (niklasCommands.txt)
+        .gitignore (niklasCommands.txt plus partners motsvarighet)
         allCommands.txt (alla 60 commands)
         lathund.json (dina commands)
         niklasCommnads.txt (din lista)
