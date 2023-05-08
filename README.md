@@ -43,5 +43,5 @@
 ### [Labb 1 - Webbutveckling](./assets/Labb1Webb.md)
 ### [Labb 2 - Webbutveckling](./assets/Labb2Webb.md)
 ### [Labb 1 - Agil Utveckling](./assets/Labb1Agile.md)
-### [Tenta - Webbutveckling](./assets/TentaWebb.md)
-### [Tenta - Agil Utveckling](./assets/TentaAgile.md)
+### [Tenta - Webbutveckling](./assets/InfoHemtentor.md)
+### [Tenta - Agil Utveckling](./assets/InfoHemtentor.md)
