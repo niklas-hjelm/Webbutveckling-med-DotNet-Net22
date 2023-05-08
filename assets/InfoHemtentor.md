@@ -18,7 +18,7 @@ Denna tentan prövar grundläggande kunskap kring html/css/javascript men också
 
 ### Instuderingsmaterial
 
-Era tidigare Labbar, w3Schools avsnitt om HTML och CSS, samt Microsofts dokumentation om ASP.NET Core.
+Era tidigare Labbar, w3Schools avsnitt om HTML, JavaScript och CSS, samt Microsofts dokumentation om ASP.NET Core.
 
 Http-protokollet med http-metorder, statuskoder och uppbyggnad av requests och responses.
 
