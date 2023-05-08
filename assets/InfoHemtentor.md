@@ -2,7 +2,7 @@
 
 ## Instruktioner
 
-Båda dessa tentor är hemtentor. Detta innebär att ni kan starta dem på egen tid men när en tenta är startad så har man en viss tid på sig att göra klart den. Deadline för att ha gjort klart och lämnat in är den 28/5.
+Båda dessa tentor är hemtentor. Detta innebär att ni kan starta dem på egen tid men när en tenta är startad så har man en viss tid på sig att göra klart den. Deadline för att ha gjort klart och lämnat in är klockan 23:59 den 28/5.
 
 Båda tentorna har s.k. Xit-check som alla andra tidigare tentor haft. Detta innebär att om man lämnar sidan på något sätt, t.ex. clickar utanför, tabbar, byter flik eller liknande så loggas all den tiden. För dessa två är gränsen för denna tid 0 sekunder. Se alltså till att absolut inte trigga Xit-Checken, då kommer ni få 0 poäng på tentan och ni kommer inte kunna göra om samma tenta utan får en ny papperstenta på plats.
 
