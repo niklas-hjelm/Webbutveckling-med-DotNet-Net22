@@ -2,7 +2,7 @@
 
 ## Instruktioner
 
-Båda dessa tentor är hemtentor. Detta innebär att ni kan starta dem på egen tid men när en tenta är startad så har man en viss tid på sig att göra klart den.
+Båda dessa tentor är hemtentor. Detta innebär att ni kan starta dem på egen tid men när en tenta är startad så har man en viss tid på sig att göra klart den. DEadline för att ha gjort klart och lämnat in är den 28/5.
 
 Båda tentorna har s.k. Xit-check som alla andra tidigare tentor haft. Detta innebär att om man lämnar sidan på något sätt, t.ex. clickar utanför, tabbar, byter flik eller liknande så loggas all den tiden. För dessa två är gränsen för denna tid 0 sekunder. Se alltså till att absolut inte trigga Xit-Checken, då kommer ni få 0 poäng på tentan och ni kommer inte kunna göra om den.
 
@@ -34,7 +34,7 @@ Denna tentan prövar praktisk förståelse av SCRUM och terminologin kring detta
 
 Den prövar också att man läst in sig på scrum-guiden.
 
-**OBS! Jag är medveten om att fråga 9 är felgjord och kommer att ge alla 4p. Detta är inräknat i gränsen för godkänt. Se till att svara på den så att ni får de poängen. Felet med den är att den ger alternbativ men bara det korrekta.**
+**OBS! Jag är medveten om att fråga 9 är felgjord och kommer att ge alla 4p. Detta är inräknat i gränsen för godkänt. Se till att svara på den så att ni får de poängen. Felet med den är att den ger alternativ men bara det korrekta.**
 
 ### Instuderingsmaterial
 
